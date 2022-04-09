@@ -1,0 +1,39 @@
+/* Selector {
+    propiedad: valor;
+} 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+h1 {
+  color: brown;
+  background-color: lavender;
+  text-decoration: underline;
+}
+/* las class son reutilizables*/
+.paragraph {
+  font-size: italic;
+}
+
+ul li {
+  text-decoration: underline;
+}
+
+/* Los id son unicos y no se reutilizan*/
+#iluminatti {
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.home {
+  background-image: url(imagenes/LogoB.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
